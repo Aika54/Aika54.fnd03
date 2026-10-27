@@ -108,7 +108,7 @@ function showProfile(account) {
 
   document.getElementById("favorite").textContent = account.favorite || "未設定";
 
-  document.querySelector("img").src = account.image;
+  document.querySelector("img").src = `../pictures/${account.image}`;
 }
 
 // ログイン情報があれば情報を復元
