@@ -107,7 +107,7 @@ function showProfile(account) {
 
   document.getElementById("favorite").textContent = account.favorite || "未設定";
 
-  document.querySelector("img").src = `../pictures/${account.image}`;
+  document.querySelector("img").src = `${account.image}`;
 }
 
 // 前回のニックネームがあれば情報を復元
